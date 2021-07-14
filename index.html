@@ -45,8 +45,8 @@
     <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/style.css" rel="stylesheet">
     
     <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.css" rel="stylesheet">
-    <script src="/staticfiles/landing_page_gen/render.js"></script>
     
+    <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script> 
 </head>
 
 <body>
@@ -833,7 +833,20 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
     
 
+<div id="service-area-array" class = "hidden">
 
+    
+        [[&#x27;Tampa&#x27;, &#x27;FL&#x27;, 50], [&#x27;Valrico&#x27;, &#x27;FL&#x27;, 50]]
+        <div class="city"> Tampa </div>
+        <div class="state"> FL </div>
+        <div class="radius"> 50 </div>
+    
+        [[&#x27;Tampa&#x27;, &#x27;FL&#x27;, 50], [&#x27;Valrico&#x27;, &#x27;FL&#x27;, 50]]
+        <div class="city"> Valrico </div>
+        <div class="state"> FL </div>
+        <div class="radius"> 50 </div>
+    
+</div> 
 
 <section id="find-us" class="py-16   bg-white text-gray-900  md:py-20 lg:py-20">
 
@@ -844,16 +857,16 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
     <h2  class="mb-5 text-3xl  mx-auto text-center font-extrabold leading-none sm:text-4xl lg:text-7xl"> Service Areas </h2>
     <h2  class="my-3 mb-10  text-xl font-medium text-gray-400 text-center"> Proudly Serving   Tampa,    Valrico & Surrounding Areas   </h2>
-        
+    <div style="height:500px; width:100%;" id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSw3qRocbSgfTrtxZbCsTjSHZaaJuUXF4&callback=initMap&libraries=&v=weekly"
+      async
+    ></script> 
 
 
-    <iframe
-            width="100%"
-            height="500px"
-            frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBPscVsAYq9Mo6GmcMKF1tUfrWWN2Gt93M
-                &q=Tampa, FL" allowfullscreen>
-        </iframe> 
+    
     </div>
 </section>
 
