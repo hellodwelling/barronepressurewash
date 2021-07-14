@@ -430,187 +430,171 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
             <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
                 <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
                 <h2 class="my-3 mb-10 text-xl font-medium  text-gray-400  text-center">See why our customers love us</h2>
-                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VFYZLL4A880RKBO61QBNEQHPK7MPP6VL93PYBF5D.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/G4RDJCL72LNY2F3M42W03M54L6GZUBL23Q1COORR.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TSPLHU3NSSXZ3TH3Z4OMFXC30R75JWPQHGG0PSKP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DNPK6PJYFBL8VKHT1VD5NZ1BSC6EOYA4ETCN4V20.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/12TFU81WA0E428MLDXZ71GU7IED7ZHGHKSFGMW9R.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/21HBFI8E2RBABCLZP94LA8JQIK0ZV04FF672YZ7Z.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9M0MYC4PLY59RTQFO1K1HRM31OXLASXAF18W2XNB.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YN878I2OL2RZYJ1KUOXW0811OYVW5RCJV6HKC15G.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VBM64H4XBRWKA942Y1C9RZTNQE5F8Z11AXG94W9I.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/O0K1KC52IXEQDPRGOEHEXKLGKXDQ5UWBFV5JMXSR.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/NLND0WX3O0PO5LCVRG036UHNFEGUBVYSEX83NJNS.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TQ4P2WZC6CUW3I0JXG8NJPKVB4S5D28HUL7R7WYY.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IYPLA2NKHYX5HVNQDD56SK7C7UDV2QG0UFEWDCL7.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TLCCG9PGMCLF6TDZ0KZ9GYJD8YIZD5QVEPPLU5TA.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KXOT186S2BY8YGYTQT68I82I4O42LZZQFVE6OZX9.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/6YS7BWWVFDN9YDWJK6664KLL1CEC8MDQFYE5KAI6.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8K8U5FDV380M72G7AI8W9DXRLKHCFIDJ0L986OM6.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/47YQJWNFS2O4UXXGT89CDSYUT66M0ZKHGX6PALKP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/WOE3E94SBMX69R79XUE351RDQXUCRWTJZXWXDS52.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3X3WTP2065W4NBJAMXEB60W55US7L5X93EWNLNVZ.jpeg', 'photo'],          [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TU3ZD0ZMI5U0J72HVZHUSQEDFNHWXO8K3DKEEBUC.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/M318EJRDLPNZ3QCC0210E9KK9CBT0JJHT4C8XFD3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TYOZZKH42WF2I9Y2GUYQ8IX096KJCYVYWOBWJTWC.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/925SUJVP9N2WE69SJG774UD79QO4TWI6M120NA2R.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/6K71VK7HY8TIGWT5VM5N0HNWQXNRRV9V91L5OWV0.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9A1L4ZEUYL8VRNUD7YTBLEAHXL1I891EGVEMM6VK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/HU9D0DGWGX5V3Z9YXKOJ1HQKFZ4REEGG1CMLX4OI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XS4ESBOHEBWWCULNT2L1QTOC40WZ36MTUVEZQB4R.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DRSR9NS03GPW50K9QSRU8IQYVQAZBIOQKNT44COL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9WF1ZS6G7RZN4OL5615NV4QNM0VAUX44L5GQH0F9.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZTYUIN6PVPYN37HQHF27US814IA9AGSEBB62PPX3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LB19ONAEKQKYQ5I65MZFXXTS7T0IWVWUK9BB38DN.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/FFQ0YSWY095LTFEQI04FEWN14K18UKN6O4L7SFX3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TJNNNDI7SLPFJ8XHSKCIAHZ17ULDAOZROXGEIOLL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0T2JX5EAYLDGGCOPEHULDSQXP79S5Y6IPW63QP7E.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/4YEL1GOVXEMGQ76MS466TVYQDTBSXWA4GQNG8PR1.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VYIFC048GXNEI6EQ7CYLJ7UNE162MNOS3D2ESYN8.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/I50Y8PM5O0X6HXFO3XNZD3UREGZ2MPHR1A2EJVA8.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/J9XTRB0X3WNJ0YQXRZ8S319SGITNT8UBNUM6NS1O.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3PHQXE9HIPGCGJ5XAP3PL04CQYILHE1DIABVZH4D.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LY80SZ1EENZQEDQ8A2LWUDEPZO2QM7J34T9FW49L.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XRRJJIXCB01LAKICCW2NXSSHNFI6PPZ55YFZIZ30.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/6OD6HQWY6924R5ZRGSQR83UF2E0T1RS7THZ65WLM.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/GKOKUQPJ4V17PWY5QUG4MIUYP6FY9CL19E2JL87G.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/G3WBE6XIKLAL2SIFVRCMU2PYVLH25YA5RH437GBD.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LA9FHQSFKL8A3CKBLNAXYQK27YKX4QUVQMM4067B.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZFXIQ460P4U20UIKXFI16SJQ9B1QNXAAJBRZ3DM5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DA71ULAUZ9MOLIV64Z72VX9YUUBPDQGEXCFLC1B1.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/I598LEDDWY77JOEENKKX59SRNA804VE9AOUJP523.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/X8SF2HY3V3O57W09VK8SYFM1B5K2G0WAF0UXJSPB.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/NTFL2DYLXYOQVO02KFBB71GPV29JUP3K9COQYRE5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KL166FHN8DIY9GJIYCSG4P77FQUBXE2RZFMZ1QWY.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/FELIB631FC0RL7685H7UZ95KUS09V6M13KDQCQK9.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/4ETR6INR5WC2PT09A3YCSGL2FDT3BMKFAEB047BX.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/4JQHOXUCLB9OYGUI8JB3ZDV1X5YBMPNHY6ELAMIQ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VJNO1CSPKCCFQA9QYEJWU8P00PYB4DUNFHJ6IQ3I.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YOE9E5SC860B07FE3CQNBT0I8NUFC8X2J1R9T28F.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/R64GZMSDQK5MPIDGL4B8M50KRYMG4AQZ1X71JH6K.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q4GD8HNT7LV98FW5FIMSYQ7FBYRT6MJZR8F6RFJC.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/E9W9UY5QS32UVMLFLMTLO92H68AC0T0FMOSFCMVV.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/L1RJ955HP8TEASXU841T5V2GF1QCKK04FKBB8PDJ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5C91VYNYPWGPYX3A3OADFKCXZ65TK53SXSFEGA6P.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/7TYCQBCTMZFP6GH1YZHST9T38WAWWHRBA5Z8M0QV.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VBN64J81RUQ85BYBES4EZDU3IHTIM8SFR3JX8UTD.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YCDLNJT570HJA6YSN2BF1U4LOWBSQEAEPO9EJU8L.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VFYZLL4A880RKBO61QBNEQHPK7MPP6VL93PYBF5D.jpeg"  alt = "Photo number 1 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
-                        
-                                        
-                            
-                                  
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/G4RDJCL72LNY2F3M42W03M54L6GZUBL23Q1COORR.jpeg"  alt = "Photo number 2 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/FFQ0YSWY095LTFEQI04FEWN14K18UKN6O4L7SFX3.jpeg"  alt = "Photo number 1 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TSPLHU3NSSXZ3TH3Z4OMFXC30R75JWPQHGG0PSKP.jpeg"  alt = "Photo number 3 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TJNNNDI7SLPFJ8XHSKCIAHZ17ULDAOZROXGEIOLL.jpeg"  alt = "Photo number 2 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DNPK6PJYFBL8VKHT1VD5NZ1BSC6EOYA4ETCN4V20.jpeg"  alt = "Photo number 4 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0T2JX5EAYLDGGCOPEHULDSQXP79S5Y6IPW63QP7E.jpeg"  alt = "Photo number 2 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/12TFU81WA0E428MLDXZ71GU7IED7ZHGHKSFGMW9R.jpeg"  alt = "Photo number 5 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/4YEL1GOVXEMGQ76MS466TVYQDTBSXWA4GQNG8PR1.jpeg"  alt = "Photo number 4 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/21HBFI8E2RBABCLZP94LA8JQIK0ZV04FF672YZ7Z.jpeg"  alt = "Photo number 6 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VYIFC048GXNEI6EQ7CYLJ7UNE162MNOS3D2ESYN8.jpeg"  alt = "Photo number 5 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9M0MYC4PLY59RTQFO1K1HRM31OXLASXAF18W2XNB.jpeg"  alt = "Photo number 7 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/I50Y8PM5O0X6HXFO3XNZD3UREGZ2MPHR1A2EJVA8.jpeg"  alt = "Photo number 6 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YN878I2OL2RZYJ1KUOXW0811OYVW5RCJV6HKC15G.jpeg"  alt = "Photo number 8 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/J9XTRB0X3WNJ0YQXRZ8S319SGITNT8UBNUM6NS1O.jpeg"  alt = "Photo number 7 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VBM64H4XBRWKA942Y1C9RZTNQE5F8Z11AXG94W9I.jpeg"  alt = "Photo number 9 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3PHQXE9HIPGCGJ5XAP3PL04CQYILHE1DIABVZH4D.jpeg"  alt = "Photo number 8 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/O0K1KC52IXEQDPRGOEHEXKLGKXDQ5UWBFV5JMXSR.jpeg"  alt = "Photo number 10 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LY80SZ1EENZQEDQ8A2LWUDEPZO2QM7J34T9FW49L.jpeg"  alt = "Photo number 9 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/NLND0WX3O0PO5LCVRG036UHNFEGUBVYSEX83NJNS.jpeg"  alt = "Photo number 11 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XRRJJIXCB01LAKICCW2NXSSHNFI6PPZ55YFZIZ30.jpeg"  alt = "Photo number 10 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TQ4P2WZC6CUW3I0JXG8NJPKVB4S5D28HUL7R7WYY.jpeg"  alt = "Photo number 12 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/6OD6HQWY6924R5ZRGSQR83UF2E0T1RS7THZ65WLM.jpeg"  alt = "Photo number 11 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IYPLA2NKHYX5HVNQDD56SK7C7UDV2QG0UFEWDCL7.jpeg"  alt = "Photo number 13 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/GKOKUQPJ4V17PWY5QUG4MIUYP6FY9CL19E2JL87G.jpeg"  alt = "Photo number 12 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TLCCG9PGMCLF6TDZ0KZ9GYJD8YIZD5QVEPPLU5TA.jpeg"  alt = "Photo number 14 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/G3WBE6XIKLAL2SIFVRCMU2PYVLH25YA5RH437GBD.jpeg"  alt = "Photo number 13 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KXOT186S2BY8YGYTQT68I82I4O42LZZQFVE6OZX9.jpeg"  alt = "Photo number 15 of Barr None Wash Pro&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LA9FHQSFKL8A3CKBLNAXYQK27YKX4QUVQMM4067B.jpeg"  alt = "Photo number 15 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/6YS7BWWVFDN9YDWJK6664KLL1CEC8MDQFYE5KAI6.jpeg"  alt = "Photo number 16 of Barr None Wash Pro&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZFXIQ460P4U20UIKXFI16SJQ9B1QNXAAJBRZ3DM5.jpeg"  alt = "Photo number 16 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8K8U5FDV380M72G7AI8W9DXRLKHCFIDJ0L986OM6.jpeg"  alt = "Photo number 17 of Barr None Wash Pro&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DA71ULAUZ9MOLIV64Z72VX9YUUBPDQGEXCFLC1B1.jpeg"  alt = "Photo number 17 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/47YQJWNFS2O4UXXGT89CDSYUT66M0ZKHGX6PALKP.jpeg"  alt = "Photo number 18 of Barr None Wash Pro&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/I598LEDDWY77JOEENKKX59SRNA804VE9AOUJP523.jpeg"  alt = "Photo number 18 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WOE3E94SBMX69R79XUE351RDQXUCRWTJZXWXDS52.jpeg"  alt = "Photo number 19 of Barr None Wash Pro&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/X8SF2HY3V3O57W09VK8SYFM1B5K2G0WAF0UXJSPB.jpeg"  alt = "Photo number 19 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3X3WTP2065W4NBJAMXEB60W55US7L5X93EWNLNVZ.jpeg"  alt = "Photo number 20 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
-                        
-                                        
-                        
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                                <video class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/1Q796JG7YCTXKVCZDYTSUOHW9UT9MV5HEG2XX0Z9.mp4" >
-                                </video>
-                            </div>
-                        
-                                        
-                        
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                                <video class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/V4RVW4NZ61FLGXC6PSKA8HPEWLBJ1Y9NAY6GOBC8.mp4" >
-                                </video>
-                            </div>
-                        
-                                        
-                        
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                                <video class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/A04BX0R3J0VYHH8Z0Z0FRHGOSSG1KT92EEUML81K.mp4" >
-                                </video>
-                            </div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/NTFL2DYLXYOQVO02KFBB71GPV29JUP3K9COQYRE5.jpeg"  alt = "Photo number 20 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 23; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TU3ZD0ZMI5U0J72HVZHUSQEDFNHWXO8K3DKEEBUC.jpeg"  alt = "Photo number 24 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KL166FHN8DIY9GJIYCSG4P77FQUBXE2RZFMZ1QWY.jpeg"  alt = "Photo number 21 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 24; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/M318EJRDLPNZ3QCC0210E9KK9CBT0JJHT4C8XFD3.jpeg"  alt = "Photo number 25 of Barr None Wash Pro&#x27;s best work performing a Roof Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/FELIB631FC0RL7685H7UZ95KUS09V6M13KDQCQK9.jpeg"  alt = "Photo number 22 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 25; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TYOZZKH42WF2I9Y2GUYQ8IX096KJCYVYWOBWJTWC.jpeg"  alt = "Photo number 26 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/4ETR6INR5WC2PT09A3YCSGL2FDT3BMKFAEB047BX.jpeg"  alt = "Photo number 23 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 26; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/925SUJVP9N2WE69SJG774UD79QO4TWI6M120NA2R.jpeg"  alt = "Photo number 27 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 22; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/4JQHOXUCLB9OYGUI8JB3ZDV1X5YBMPNHY6ELAMIQ.jpeg"  alt = "Photo number 24 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 27; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/6K71VK7HY8TIGWT5VM5N0HNWQXNRRV9V91L5OWV0.jpeg"  alt = "Photo number 28 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 23; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VJNO1CSPKCCFQA9QYEJWU8P00PYB4DUNFHJ6IQ3I.jpeg"  alt = "Photo number 25 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 28; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9A1L4ZEUYL8VRNUD7YTBLEAHXL1I891EGVEMM6VK.jpeg"  alt = "Photo number 29 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 24; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YOE9E5SC860B07FE3CQNBT0I8NUFC8X2J1R9T28F.jpeg"  alt = "Photo number 26 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 29; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/HU9D0DGWGX5V3Z9YXKOJ1HQKFZ4REEGG1CMLX4OI.jpeg"  alt = "Photo number 30 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 25; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/R64GZMSDQK5MPIDGL4B8M50KRYMG4AQZ1X71JH6K.jpeg"  alt = "Photo number 27 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 30; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XS4ESBOHEBWWCULNT2L1QTOC40WZ36MTUVEZQB4R.jpeg"  alt = "Photo number 31 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 26; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q4GD8HNT7LV98FW5FIMSYQ7FBYRT6MJZR8F6RFJC.jpeg"  alt = "Photo number 28 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 31; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DRSR9NS03GPW50K9QSRU8IQYVQAZBIOQKNT44COL.jpeg"  alt = "Photo number 32 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 27; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/E9W9UY5QS32UVMLFLMTLO92H68AC0T0FMOSFCMVV.jpeg"  alt = "Photo number 29 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 32; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9WF1ZS6G7RZN4OL5615NV4QNM0VAUX44L5GQH0F9.jpeg"  alt = "Photo number 33 of Barr None Wash Pro&#x27;s best work performing a Hardscape &amp; Deck Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 28; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/L1RJ955HP8TEASXU841T5V2GF1QCKK04FKBB8PDJ.jpeg"  alt = "Photo number 30 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 33; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZTYUIN6PVPYN37HQHF27US814IA9AGSEBB62PPX3.jpeg"  alt = "Photo number 34 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 29; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5C91VYNYPWGPYX3A3OADFKCXZ65TK53SXSFEGA6P.jpeg"  alt = "Photo number 31 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 34; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LB19ONAEKQKYQ5I65MZFXXTS7T0IWVWUK9BB38DN.jpeg"  alt = "Photo number 35 of Barr None Wash Pro&#x27;s best work performing a Exterior Cleaning job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 30; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/7TYCQBCTMZFP6GH1YZHST9T38WAWWHRBA5Z8M0QV.jpeg"  alt = "Photo number 32 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        
+                                        
+                            
+                                  
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 31; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VBN64J81RUQ85BYBES4EZDU3IHTIM8SFR3JX8UTD.jpeg"  alt = "Photo number 33 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
+                        
+                                        
+                            
+                                  
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 32; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YCDLNJT570HJA6YSN2BF1U4LOWBSQEAEPO9EJU8L.jpeg"  alt = "Photo number 34 of Barr None Wash Pro&#x27;s best work performing a Driveway &amp; Sidewalk Cleaning job"   loading="lazy" ></div>
                         
                      
                                         
@@ -836,15 +820,15 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 <div id="service-area-array" class = "hidden">
 
     
-        [[&#x27;Tampa&#x27;, &#x27;FL&#x27;, 50], [&#x27;Valrico&#x27;, &#x27;FL&#x27;, 50]]
+        [[&#x27;Tampa&#x27;, &#x27;FL&#x27;, 75], [&#x27;Valrico&#x27;, &#x27;FL&#x27;, 75]]
         <div class="city"> Tampa </div>
         <div class="state"> FL </div>
-        <div class="radius"> 50 </div>
+        <div class="radius"> 75 </div>
     
-        [[&#x27;Tampa&#x27;, &#x27;FL&#x27;, 50], [&#x27;Valrico&#x27;, &#x27;FL&#x27;, 50]]
+        [[&#x27;Tampa&#x27;, &#x27;FL&#x27;, 75], [&#x27;Valrico&#x27;, &#x27;FL&#x27;, 75]]
         <div class="city"> Valrico </div>
         <div class="state"> FL </div>
-        <div class="radius"> 50 </div>
+        <div class="radius"> 75 </div>
     
 </div> 
 
